@@ -8,11 +8,11 @@ import { Link } from 'react-router-dom'
 function newNavbar() {
   return (
     <>
-      <Navbar bg="black" variant="dark" fixed="top">
+      <Navbar bg="black" variant="dark" fixed="top" className='py-4 h5'>
         <Container>
         <Navbar.Brand >
         <Link to="/">
-        <img width="180px" height="auto" className="img-responsive" src={Logo}  alt="logo" />
+        <img width="260px" height="auto" className="img-responsive" src={Logo}  alt="logo" />
         </Link>
         </Navbar.Brand>
           <Navbar.Brand href="/">HOME</Navbar.Brand>
@@ -21,7 +21,7 @@ function newNavbar() {
             <Nav.Link href="/">REGIONS</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/">SIGNIN</Nav.Link>
+            <Nav.Link href="/" className="text-primary">SIGNIN</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
