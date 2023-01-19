@@ -12,7 +12,7 @@ function Home() {
     <>
     <Navbar />
     <Carousel/>
-    <SectionHome  />
+    <SectionHome/>
     <Footer/>
       
     </>
