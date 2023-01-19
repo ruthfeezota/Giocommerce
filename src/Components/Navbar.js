@@ -21,7 +21,7 @@ function newNavbar() {
             <Nav.Link href="/">REGIONS</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/" className="text-primary">SIGNIN</Nav.Link>
+            <Nav.Link href="/Login" className="text-primary">SIGNIN</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
