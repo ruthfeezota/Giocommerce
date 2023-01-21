@@ -2,6 +2,8 @@ import React from "react";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
+import '../index.css';
+
 
 
 class landingCarouselComponent extends React.Component {
@@ -9,9 +11,8 @@ render() {
 return (
   <div>
     <div className='container-fluid' >
-      <div className="row">
+      {/* <div className="row"> */}
         <div className="col-sm-12">
-      
         </div>
       </div>
       <div className="row">
@@ -31,7 +32,7 @@ return (
             </Carousel.Item>
           </Carousel>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   </div>
   )

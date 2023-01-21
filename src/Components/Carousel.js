@@ -9,7 +9,7 @@ render() {
 return (
   <div>
     <div className='container-fluid' >
-      <div className="row">
+      {/* <div className="row"> */}
         <div className="col-sm-12">
           <h3>React Bootstrap Carousel</h3>
         </div>
@@ -31,7 +31,7 @@ return (
             </Carousel.Item>
           </Carousel>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   </div>
   )

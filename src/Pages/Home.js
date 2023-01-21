@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import '../index.css';
 import Navbar from '../Components/Navbar';
 import Carousel from '../Components/Carousel';
 import SectionHome from '../Components/SectionHome'
