@@ -4,7 +4,12 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import LandingCarousel from '../Components/LandingCarousel';
-import landingEmail from '../Components/landingEmail';
+import LandEmail from '../Components/LandingEmail';
+import WorksLanding from '../Components/BodyLanding';
+
+
+
+
 
 
 function Landing() {
@@ -12,7 +17,8 @@ function Landing() {
       <>
       <Navbar />
       <LandingCarousel />
-      <landingEmail />
+      <LandEmail />
+      <WorksLanding />
       <Footer/>
 
       </>
