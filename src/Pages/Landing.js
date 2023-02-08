@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Navbar from '../Components/Navbar';
+import LandingNavbar from '../Components/LandingNavbar';
 import Footer from '../Components/Footer';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import LandingCarousel from '../Components/LandingCarousel';
@@ -13,7 +13,7 @@ import VideoSec from '../Components/VideoSection';
 function Landing() {
     return (
       <>
-      <Navbar />
+      <LandingNavbar />
       <LandingCarousel />
       <LandEmail />
       <WorksLanding />

@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-caption {
+  position: absolute;
+  top: 200px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}

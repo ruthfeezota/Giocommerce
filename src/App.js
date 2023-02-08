@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import './index.css'
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
@@ -8,6 +7,7 @@ import Register from './Pages/Register'
 import Search from './Pages/Search'
 import Landing from './Pages/Landing';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -29,6 +29,6 @@ function App() { return (
 
 
 
+
+
 export default App;
-
-

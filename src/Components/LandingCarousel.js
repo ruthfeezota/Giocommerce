@@ -24,10 +24,10 @@ return (
               src="https://i.ibb.co/s5g9YpN/home-Page-Cover.png"
               alt="First slide"
               />
-                <Carousel.Caption className="text-">
-                  <h3>WE SUPPORT <br/> CHEMICALS INDUSTRY</h3>
-                  <Button href="#" variant="outline-secondary" type="submit" size="lg">JOIN EMAIL LIST</Button>{' '}
-                  <Button href="#" variant="outline-secondary" type="submit" size="lg">LAUNCH DAY</Button>{' '}
+                <Carousel.Caption className="carousel-caption text-left" >
+                  <h3 class="fs-1 fw-bold text-left">WE SUPPORT <br/>CHEMICALS INDUSTRY</h3>
+                  <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">JOIN EMAIL LIST</Button>{' '}
+                  <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">LAUNCH DAY</Button>{' '}
                 </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
