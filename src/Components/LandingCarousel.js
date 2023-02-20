@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import '../index.css';
+import { toBePartiallyChecked } from "@testing-library/jest-dom/dist/matchers";
 
 
 
@@ -20,11 +21,11 @@ return (
           <Carousel>
             <Carousel.Item>
               <img
-              className="d-block w-100"
-              src="https://i.ibb.co/s5g9YpN/home-Page-Cover.png"
+              className="d-block w-100" 
+              src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png"
               alt="First slide"
               />
-                <Carousel.Caption className="carousel-caption text-left" >
+                <Carousel.Caption className="carousel-caption text-left ms-5 mt-5 pt-5 " >
                   <h3 class="fs-1 fw-bold text-left">WE SUPPORT <br/>CHEMICALS INDUSTRY</h3>
                   <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">JOIN EMAIL LIST</Button>{' '}
                   <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">LAUNCH DAY</Button>{' '}

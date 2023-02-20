@@ -9,7 +9,7 @@ const VideoSec = () => <header style={{ paddingLeft: 0 }}>
   
 <div
   className='p-5 text-center bg-image'
-  style={{ backgroundImage: "url('https://i.ibb.co/s5g9YpN/home-Page-Cover.png')", height: 600 }}>
+  style={{ backgroundImage: "url('https://i.ibb.co/BK9C1jK/np-file-55124-3-2.png')", height: 600}}>
     <Container>
   <div className="">
     <div className='align-items-center h-100'>

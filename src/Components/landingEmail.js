@@ -29,7 +29,7 @@ function LandEmail() {
   };
 
   return (
-    <Form className="bg-black text-white text-center align-center" onSubmit={handleSubmit}>
+    <Form className="bg-black text-white text-center align-center pt-3" onSubmit={handleSubmit}>
       <Row className="justify-content-md-center">
         <Form.Group className="mb-3" controlId="landingEmail">
           <Form.Label className="fs-5 mt-2 text-warning">JOIN OUR EMAIL LIST</Form.Label>
