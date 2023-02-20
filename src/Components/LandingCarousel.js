@@ -21,7 +21,7 @@ return (
           <Carousel>
             <Carousel.Item>
               <img
-              className="d-block w-100" 
+              className="d-block w-100" style={{ height: 800}}
               src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png"
               alt="First slide"
               />
