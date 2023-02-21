@@ -86,7 +86,7 @@ function DemoForm() {
                 type="submit"
                 style={{ background: loader ? "#FFBD59" : "#FFBD59" }}
             >
-                Submit
+                Request Product Demo
             </button>
         </FormGroup>
         </Row>
