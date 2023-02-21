@@ -41,7 +41,7 @@ function LandEmail() {
           </Col>
         </Form.Group>
 
-    </Row>
+       </Row>
     </Form>
 
   );
