@@ -21,7 +21,7 @@ function landingNavbar() {
             <Nav.Link href="/" className="me-auto ms-3">REGIONS</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/DemoRequest" className="text-warning">REQUEST A DEMO</Nav.Link>
+            <Nav.Link href="/Demo" className="text-warning">REQUEST A DEMO</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
