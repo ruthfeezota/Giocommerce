@@ -19,7 +19,7 @@ function LandEmail() {
     })
 
     .then(() => {
-      alert('Email has be submitted')
+      alert('Email has be submitted 👍')
     })
     .catch((error) => {
       alert(error.message);

@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import '../index.css'
-import { Container } from 'react-bootstrap'
 
 
 const WorksLanding = () => <body className="page-footer bg-black font-small text-white pt-4">

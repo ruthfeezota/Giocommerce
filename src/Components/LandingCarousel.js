@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import '../index.css';
-import { toBePartiallyChecked } from "@testing-library/jest-dom/dist/matchers";
+
 
 
 
