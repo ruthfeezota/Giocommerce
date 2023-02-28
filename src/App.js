@@ -8,6 +8,8 @@ import Search from './Pages/Search'
 import Landing from './Pages/Landing';
 import Demo from './Pages/Demo';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Test from './Components/Test';
+
 
 
 
@@ -22,6 +24,7 @@ function App() { return (
      <Route path='/Search' element={<Search />} />
      <Route path='/Landing' element={<Landing />} />
      <Route path='/Demo' element={<Demo />} />
+     <Route path='/Test' element={<Test />} />
    </Routes>
  </Router>
 );

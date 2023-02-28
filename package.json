@@ -9,6 +9,7 @@
     "add": "^2.0.6",
     "bootstrap": "^5.2.1",
     "firebase": "^9.17.1",
+    "mdbreact": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-validation": "^0.1.11",
