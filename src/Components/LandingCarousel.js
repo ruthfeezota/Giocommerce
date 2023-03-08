@@ -26,9 +26,9 @@ return (
               alt="First slide"
               />
                 <Carousel.Caption className="carousel-caption text-left ms-5 mt-5 pt-5 " >
-                  <h3 class="fs-1 fw-bold text-left">WE SUPPORT <br/>CHEMICALS INDUSTRY</h3>
-                  <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">JOIN EMAIL LIST</Button>{' '}
-                  <Button href="#" variant="outline-light" type="submit" size="lg" className="square rounded-0">LAUNCH DAY</Button>{' '}
+                  <h3 class="fs-1 fw-bold text-left">WE SUPPORT <br/>AFRICAN INDUSTRY</h3>
+                  <Button href="/" variant="outline-light" type="submit" size="lg" className="square rounded-0">JOIN EMAIL LIST</Button>{' '}
+                  <Button href="/" variant="outline-light" type="submit" size="lg" className="square rounded-0">LAUNCH DAY</Button>{' '}
                 </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

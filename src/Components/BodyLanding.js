@@ -6,10 +6,11 @@ import { Row } from "react-bootstrap";
 import '../index.css'
 
 
-const WorksLanding = () => <body className="page-footer bg-black font-small text-white pt-4">
+const WorksLanding = () => <body className="page-footer bg-black font-small text-white pt-4 pb-5">
     <Row className="justify-content-md-center pt-5">
+    <Col xs className="">
     <div className="container-fluid text-center text-md-left">
-        <div className="row justify-content-md-center" style={{ width: 1700}}>
+        <div className="row text-center justify-content-center col-md-12 pb-5">
             {/* <div className="col-md-12 mt-md-0 mt-3"> */}
             <div class="ms-5 " style={{ width: 350}}>
                 <Col xs >
@@ -18,9 +19,9 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               src="https://i.ibb.co/d79RYZn/earthicon.png"
               alt="Earth Icon"
               />
-                <h4>Global</h4>
+                <h4 className="pt-3">African Focused</h4>
                 <h6>
-              Diverse small business owners have struggled to get the funding they need to begin, support, and grow their business. Many banks have successfully
+                Woaom B2B e-commerce platform is transforming Africa, providing them with unprecedented access to a vast network of suppliers and customers.
               </h6>
                 </Col>
                 </div>
@@ -31,9 +32,9 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               src="https://i.ibb.co/f9PZ6mP/carticon.png"
               alt="Cart Icon"
               />
-                <h4>Shopping</h4>
+                <h4 className="pt-3">Shopping</h4>
                 <h6>
-              Diverse small business owners have struggled to get the funding they need to begin, support, and grow their business. Many banks have successfully
+                Our platform enables B2B e-commerce in Africa is driving innovation and entrepreneurship, as more and more businesses leverage technology to reach new markets and expand their operations.  
               </h6>
                 </Col>
                 </div>
@@ -44,13 +45,14 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               src="https://i.ibb.co/YbJk2BX/truckicon.png"
               alt="Truck Icon"
               />
-                <h4>Logistics</h4>
+                <h4 className="pt-3">Logistics</h4>
                 <h6>
-              Diverse small business owners have struggled to get the funding they need to begin, support, and grow their business. Many banks have successfully
+                Logistics is a critical component of Africa's economy, as it plays a vital role in facilitating trade and commerce across the continent. Woaom provides a platform that powers African logistics. 
               </h6>
                 </Col>
                 </div>
             </div>
+            <hr />
 
             <div class="container">                      
     <div class="row text-center justify-content-center mb-5">
@@ -104,6 +106,7 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
 </div>
 
             </div>
+            </Col>
     {/* </div> */}
     </Row>
     
