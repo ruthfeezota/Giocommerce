@@ -7,7 +7,7 @@ import '../index.css'
 
 
 const WorksLanding = () => <body className="page-footer bg-black font-small text-white pt-4 pb-5">
-    <Row className="justify-content-md-center pt-5">
+    <Row className="justify-content-md-center ">
     <Col xs className="">
     <div className="container-fluid text-center text-md-left">
         <div className="row text-center justify-content-center col-md-12 pb-5">
@@ -54,11 +54,11 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
             </div>
             <hr />
 
-            <div class="container">                      
+            <div class="container mb-3">                      
     <div class="row text-center justify-content-center mb-5">
         <div class="col-xl-6 col-lg-8">
-            <h2 class="font-weight-bold pt-5">Launch Timeline</h2>
-            <p class="text-muted">We’re very proud of the path we’ve taken. Here's a timeline of our soft launch and upcoming activities in the states and Africa.</p>
+            <h2 class="font-weight-bold pt-5">App Roadmap</h2>
+            <p class="text-muted">Woaom prepares for launch Jan 2024 in Ghana and an additional 3 countries in 2025</p>
         </div>
     </div>
 
@@ -68,36 +68,29 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">July 2023</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Austin TX Launch</p>
+                        <p class="h6 mt-3 mb-1">September 2023</p>
+                        <p class="h6 text-muted mb-0 mb-lg-0">User Testing Starts</p>
                     </div>
                 </div>
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">August 2023</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Accra Ghana Launch</p>
+                        <p class="h6 mt-3 mb-1">September 2023</p>
+                        <p class="h6 text-muted mb-0 mb-lg-0">Partnership With AfCFTA</p>
                     </div>
                 </div>
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">September 2023</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Collaboration with AFTA</p>
+                        <p class="h6 mt-3 mb-1">January 2024</p>
+                        <p class="h6 text-muted mb-0 mb-lg-0">Launch in Ghana</p>
                     </div>
                 </div>
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">January 2024</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">South Africa Launch</p>
-                    </div>
-                </div>
-                <div class="timeline-step mb-0">
-                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
-                        <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">June 2024</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Nigeria Launch</p>
+                        <p class="h6 mt-3 mb-1">December 2024</p>
+                        <p class="h6 text-muted mb-0 mb-lg-0">Launch in Other African Countries</p>
                     </div>
                 </div>
             </div>

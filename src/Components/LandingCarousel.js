@@ -15,9 +15,15 @@ return (
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 1" />
-      <div className="carousel-caption">
+      <div className="carousel-caption pt-0">
       <h1>WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
-        <p>Some text describing the carousel</p>
+        <p>Woaom is a B2B e-commerce game-changer for African businesses,
+          providing them with unprecedented access to products and suppliers
+          from all over the continent. We are a online marketplace that allow
+          African B2B customers to shop products from factors all around Africa,
+          businesses can now source materials, goods, and services from a wide
+          range of suppliers, helping them to reduce costs, improve quality, and
+          increase their competitiveness.</p>
         <button className="btn btn-outline-light square rounded-0">JOIN EMAIL LIST</button>
         <button className="btn btn-outline-light square rounded-0 ms-2 ">REQUEST A DEMO</button>
       </div>

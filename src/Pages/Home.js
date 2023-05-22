@@ -6,7 +6,6 @@ import  'bootstrap/dist/css/bootstrap.min.css';
 import LandingCarousel from '../Components/LandingCarousel';
 import LandEmail from '../Components/LandingEmail';
 import WorksLanding from '../Components/BodyLanding';
-import VideoSec from '../Components/VideoSection';
 import Footer from '../Components/Footer';
 
 
@@ -23,7 +22,7 @@ function Home() {
       <LandingCarousel />
       <LandEmail />
       <WorksLanding />
-      <VideoSec/>
+      {/*<VideoSec/> */}
       <Footer/>
 
 

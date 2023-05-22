@@ -16,3 +16,13 @@
     left: 0;
     top: 12px;
 }
+
+.full-width {
+  max-width: 100%;
+  background-color: black;
+  
+}
+
+.input-box {
+  width: 50% !important;
+}
