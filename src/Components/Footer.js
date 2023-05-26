@@ -5,7 +5,7 @@ import { Row } from "react-bootstrap";
 const Footer = () => <footer className="bg-black text-white">
     <Row className="justify-content-md-center">
     <div className="text-center">
-        <div className="row col-md-12 mt-md-12">
+        <div className="row col-md-12 mt-md-12 pt-2">
 
                 <Col>
                 <h6>EMAIL LIST</h6>

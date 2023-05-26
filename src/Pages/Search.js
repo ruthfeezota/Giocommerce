@@ -5,6 +5,7 @@ import Footer from '../Components/Footer';
 import SearchCard from '../Components/SearchCard';
 import SearchBar from '../Components/SearchBar';
 import SearchNavbar from '../Components/SearchNavbar';
+import SearchFilter from '../Components/SearchFilter'
 
 
 
@@ -15,7 +16,7 @@ function Search() {
   return (
     <>
       <SearchNavbar />
-      //<SearchBar/>
+      <SearchBar/>
       <SearchCard />
       <Footer/>
       

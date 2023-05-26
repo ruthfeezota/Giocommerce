@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function SearchNavbar() {
   return (
     <>
-      <Navbar bg="black" variant="dark" fixed="top" className='py-2 h5'>
+      <Navbar bg="black" variant="dark" fixed="top" className='py-1 h5'>
         <Container>
         <Navbar.Brand >
         <Link to="/">
@@ -25,13 +25,13 @@ function SearchNavbar() {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
-                    Signed in as: <a href="#login">Ruth Zota</a>
+                   Hi <a href="#login">Ruth </a>
                 </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
           <Nav>
-            <Nav.Link href="/Login" className="text-primary">SIGNOUT</Nav.Link>
+            <Nav.Link href="/Login" className="text-warning">SIGNOUT</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
