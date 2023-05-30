@@ -1,6 +1,8 @@
+
 import React from 'react';
 import GoogleLogin from 'react-google-login';
 import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const clientId= "YOUR_CLIENT_ID.apps.googleusercontent.com";
@@ -15,7 +17,7 @@ function Login( ) {
   };
 
   return (
-    <div>
+    <div id='google-btn'>
       <GoogleLogin
         clientId={clientId}
         buttonText="Log in with Google"
@@ -26,9 +28,14 @@ function Login( ) {
         isSignedIn={true}
      />
     </div>
+
+  
   );
 
-}
+};
+
+
+
 
 // function Login() {
 //   const handleFailure = (result) => {

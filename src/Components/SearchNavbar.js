@@ -31,13 +31,16 @@ function SearchNavbar() {
             </Container>
         </Navbar>
           <Nav>
-            <Nav.Link href="/Login" className="text-warning">SIGNOUT</Nav.Link>
+            <Nav.Link href="/" className="text-warning">SIGNOUT</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
     </>
+    
 
   );
-}
+  
+};
+
 
 export default SearchNavbar;

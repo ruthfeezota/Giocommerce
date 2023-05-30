@@ -21,7 +21,7 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               />
                 <h4 className="pt-3">African Focused</h4>
                 <h6>
-                Woaom B2B e-commerce platform is transforming Africa, providing them with unprecedented access to a vast network of suppliers and customers.
+                The Woaom B2B e-commerce platform is revolutionizing Africa by providing an unprecedented gateway to a vast network of suppliers and customers.
               </h6>
                 </Col>
                 </div>
@@ -34,7 +34,7 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               />
                 <h4 className="pt-3">Shopping</h4>
                 <h6>
-                Our platform enables B2B e-commerce in Africa is driving innovation and entrepreneurship, as more and more businesses leverage technology to reach new markets and expand their operations.  
+                Our platform is fueling innovation and entrepreneurship in B2B e-commerce across Africa, empowering businesses to leverage technology for reaching untapped markets and expanding their operations. 
               </h6>
                 </Col>
                 </div>
@@ -47,7 +47,7 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
               />
                 <h4 className="pt-3">Logistics</h4>
                 <h6>
-                Logistics is a critical component of Africa's economy, as it plays a vital role in facilitating trade and commerce across the continent. Woaom provides a platform that powers African logistics. 
+                Logistics serves as a crucial cornerstone of Africa's economy, playing an indispensable role in facilitating trade and commerce throughout the continent. Woaom serves as the driving force behind African logistics, offering a robust platform that empowers seamless operations and efficient supply chain management.
               </h6>
                 </Col>
                 </div>
@@ -68,7 +68,7 @@ const WorksLanding = () => <body className="page-footer bg-black font-small text
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">September 2023</p>
+                        <p class="h6 mt-3 mb-1">August 2023</p>
                         <p class="h6 text-muted mb-0 mb-lg-0">User Testing Starts</p>
                     </div>
                 </div>

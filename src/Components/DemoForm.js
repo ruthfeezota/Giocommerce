@@ -43,7 +43,7 @@ function DemoForm() {
 
 
   return (
-    <Form className="bg-black text-white text-center align-center pt-5 mt-5"  style={{ height: 900}} onSubmit={handleSubmit}>
+    <Form className="bg-black text-white text-center align-center "  style={{ height: 900}} onSubmit={handleSubmit}>
             <Row className="justify-content-md-center">
         <h1 className="mt-5 pb-5">Request a Demo</h1>
         <FormGroup className="mb-3">

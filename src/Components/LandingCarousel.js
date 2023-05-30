@@ -16,16 +16,12 @@ return (
     <div className="carousel-item active">
       <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 1" />
       <div className="carousel-caption pt-0">
-      <h1>WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
-        <p>Woaom is a B2B e-commerce game-changer for African businesses,
-          providing them with unprecedented access to products and suppliers
-          from all over the continent. We are a online marketplace that allow
-          African B2B customers to shop products from factors all around Africa,
-          businesses can now source materials, goods, and services from a wide
-          range of suppliers, helping them to reduce costs, improve quality, and
-          increase their competitiveness.</p>
-        <button className="btn btn-outline-light square rounded-0">JOIN EMAIL LIST</button>
-        <button className="btn btn-outline-light square rounded-0 ms-2 ">REQUEST A DEMO</button>
+      <h1 className="d-flex text-left">WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
+        <p className="d-flex text-left col-xs">Woaom revolutionizes B2B e-commerce for African businesses by granting them unparalleled opportunities to access products and suppliers across the continent. As an online marketplace, we empower African B2B customers to effortlessly browse and purchase products from various factors throughout Africa. By offering a vast network of suppliers, businesses can now efficiently source materials, goods, and services, ultimately leading to cost reduction, enhanced quality, and heightened competitiveness.</p>
+        <div className="d-flex text-left">
+          <button className="btn btn-outline-light square rounded-0 ">JOIN EMAIL LIST</button>
+          <button className="btn btn-outline-light square rounded-0 ms-2 ">REQUEST A DEMO</button>
+        </div>
       </div>
     </div>
     <div className="carousel-item">

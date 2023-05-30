@@ -1,57 +1,32 @@
-import React from 'react';
-import GoogleLogin from 'react-google-login';
-import '../App.css';
+import React, { useEffect, useState } from "react";
+import {auth,provider} from "./config";
+import {signInWithPopup} from "firebase/auth";
+import Home from "./Home";
+import SearchBar from "../Components/SearchBar";
+import Search from "./Search";
 
+function LoginForm(){
+    const [value,setValue] = useState('')
+    const handleClick =()=>{
+        signInWithPopup(auth,provider).then((data)=>{
+            setValue(data.user.email)
+            localStorage.setItem("email",data.user.email)
+        })
+    }
 
-const clientId= "YOUR_CLIENT_ID.apps.googleusercontent.com";
+    useEffect(()=>{
+        setValue(localStorage.getItem('email'))
+    })
 
-function Login( ) {
-  const onSuccess = (res) => {
-    console.log('[Login Success] currentUser:', res.profileObj);
-  };
-
-  const onFailure = (res) => {
-    console.log('[Login failed] res:', res);
-  };
-
-  return (
+return (
     <div>
-      <GoogleLogin
-        clientId={clientId}
-        buttonText="Log in with Google"
-        onSuccess={onSuccess}
-        onFailure={onFailure}
-        cookiePolicy={'single_host_orgin'}
-        style={{ marginTop: '100px'}}
-        isSignedIn={true}
-     />
+        {value?<Search/>:
+        <button onClick={handleClick}>Signin With Google</button>
+        }
     </div>
-  );
+);
+};
 
-}
+  
 
-// function Login() {
-//   const handleFailure = (result) => {
-//     alert(result);
-//   };
-//   const handleLogin = (gooleData) => {
-//     console.log(googleData)
-//   }
-//   return (
-//     <>
-//     <h1>React Google Login App</h1>
-//     <GoogleLogin
-//     clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-//     buttonText="Log in with Google"
-//     onSuccess={handleLogin}
-//     onFailure={handleFailure}
-//     cookiePolicy={'single_host_orgin'}
-//     >
-//     </GoogleLogin>
-
-      
-//     </>
-//   );
-// }
-
-export default Login;
+export default LoginForm;

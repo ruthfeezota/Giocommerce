@@ -1,6 +1,7 @@
 import React from 'react';
-import Logo from '../GiocommerceLogo.png'
-import { Link } from 'react-router-dom'
+import Logo from '../GiocommerceLogo.png';
+import { Link } from 'react-router-dom';
+
 
 function landingNavbar() {
   return (
@@ -37,6 +38,7 @@ function landingNavbar() {
               </li>
             </ul>
           </div>
+          {/*<button><a className="nav-link text-warning " href="/Login">Login</a></button> */}
         </nav>
     {/* 
 
@@ -67,6 +69,8 @@ function landingNavbar() {
     </>
 
   );
-}
+};
+
+
 
 export default landingNavbar;

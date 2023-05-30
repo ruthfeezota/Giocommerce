@@ -8,13 +8,6 @@ import LandEmail from '../Components/LandingEmail';
 import WorksLanding from '../Components/BodyLanding';
 import Footer from '../Components/Footer';
 
-
-{/* 
-import Navbar from '../Components/Navbar';
-import Carousel from '../Components/Carousel';
-import SectionHome from '../Components/SectionHome'
- */}
-
 function Home() {
   return (
     <>
@@ -24,16 +17,6 @@ function Home() {
       <WorksLanding />
       {/*<VideoSec/> */}
       <Footer/>
-
-
-
-{/* Home Page 
-    <Navbar />
-    <Carousel/>
-    <SectionHome/>
-    <Footer/>
-      
-  */}
 
     </>
   );
