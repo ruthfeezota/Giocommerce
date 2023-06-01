@@ -35,8 +35,8 @@ function LandEmail() {
       <Row className="justify-content-md-center">
         <Form.Group className="mb-3" controlId="landingEmail">
           <Form.Label className="fs-5 mt-2 text-warning">JOIN OUR EMAIL LIST</Form.Label>
-          <Col sm="2 pb-5" className="col-lg-5 offset-lg-4 div-wrapper d-flex">
-          <Form.Control className="square rounded-0 border border-white bg-black text-white" type="email" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)}/>
+          <Col sm="6 pb-4" className="col-lg-5 offset-lg-4 div-wrapper d-flex">
+          <Form.Control className="square rounded-0 border border-white bg-black text-white col-sm-12" type="email" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)}/>
           <Button variant="warning" type="submit" className="ml-2 square rounded-0">
           SUBMIT
         </Button>
