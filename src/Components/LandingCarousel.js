@@ -16,8 +16,8 @@ return (
     <div className="carousel-item active">
       <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 1" />
       <div className="carousel-caption pt-0">
-      <h1 className="d-flex text-left">WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
-        <p className="d-flex text-left col-xs">Woaom revolutionizes B2B e-commerce for African businesses by granting them unparalleled opportunities to access products and suppliers across the continent. As an online marketplace, we empower African B2B customers to effortlessly browse and purchase products from various factors throughout Africa. By offering a vast network of suppliers, businesses can now efficiently source materials, goods, and services, ultimately leading to cost reduction, enhanced quality, and heightened competitiveness.</p>
+      <h1 className="text-left font-weight-bold">WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
+        <p className="text-left col-md-8 ps-0">Africa's First Procurement Platform focused on intercontinental trade</p>
         <div className="d-flex text-left">
           <button className="btn btn-outline-light square rounded-0 ">JOIN EMAIL LIST</button>
           <button className="btn btn-outline-light square rounded-0 ms-2 ">REQUEST A DEMO</button>
