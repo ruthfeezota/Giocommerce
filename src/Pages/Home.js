@@ -13,9 +13,10 @@ function Home() {
     <>
       <LandingNavbar />
       <LandingCarousel />
-      <LandEmail />
       <WorksLanding />
+      <LandEmail />
       {/*<VideoSec/> */}
+
       <Footer/>
 
     </>
