@@ -87,7 +87,7 @@ nav {
 }
 .primary-heading {
   font-size: clamp(2rem, 4vw, 4rem);
-  color: #4c4c4c;
+  color: #fe9e0d;
   /* line-height: 5rem; */
   max-width: 600px;
 }
@@ -120,7 +120,7 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 10rem;
   position: relative;
   display: flex;
   align-items: center;

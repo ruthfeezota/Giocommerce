@@ -24,7 +24,6 @@ const Work = () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
         The Woaom B2B e-commerce platform is revolutionizing Africa by providing an unprecedented gateway to a vast network of suppliers and customers.

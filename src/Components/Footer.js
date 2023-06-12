@@ -21,17 +21,12 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Careers</span>
-          <span>Work</span>
+          <span>Our Tech Stacks</span>
+          <span>Request a Demo</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@woaom.com</span>
-          <span>press@woaom.com</span>
-          <span>contact@woaom.com</span>
+          <span>sales@woaom.com</span>
+          <span>Investing in Africa</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
