@@ -25,6 +25,16 @@ const Work = () => {
     title: "Integrations",
     text: "Fast, cost effective and resilient, we make integrations easy, and can integrate into any third-party software",
   },
+  {
+    image: DeliveryMeals,
+    title: "eAuctions",
+    text: "Save hours of negotiation time - and reduce your spend - by inviting suppliers to compete online, in real-time",
+  },
+  {
+    image: DeliveryMeals,
+    title: "RFx",
+    text: "Standardize your Requests, keep your communication in one place and evaluate your suppliers with ease",
+  },
   ];
   return (
     <div className="work-section-wrapper">
