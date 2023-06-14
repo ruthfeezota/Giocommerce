@@ -7,26 +7,31 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Locate Suppliers",
-      text: "Locate businesses on app to to help leverage technology for reaching untapped markets and expanding their operations.",
+      title: "Supplier Discovery",
+      text: "Tell us your requirements, hit search and explore a list of new suppliers in just a few minutes",
     },
     {
       image: ChooseMeals,
-      title: "Shop on App",
-      text: "Our platform is fueling innovation and entrepreneurship in B2B e-commerce across Africa.",
+      title: "Reporting",
+      text: "Actionable and informative insights on your RFx processes - enabling you yo make informed decisions",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Logistics serves as a crucial cornerstone of Africa's economy, playing an indispensable role in facilitating trade",
+      title: "Contracts",
+      text: "Create contracts from your awarded RFPs and experience efficient and auditable source to contract processes",
     },
+    {
+    image: DeliveryMeals,
+    title: "Integrations",
+    text: "Fast, cost effective and resilient, we make integrations easy, and can integrate into any third-party software",
+  },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <h1 className="primary-heading">How It Works</h1>
+        <h1 className="primary-heading">Our Products</h1>
         <p className="primary-text">
-        The Woaom B2B e-commerce platform is revolutionizing Africa by providing an unprecedented gateway to a vast network of suppliers and customers.
+        We pack our procurement platform with all of the core features you need to save time, reduce your spend and transact with confidence
         </p>
       </div>
       <div className="work-section-bottom">
@@ -38,6 +43,7 @@ const Work = () => {
             <h3>{data.title}</h3>
             <p>{data.text}</p>
           </div>
+          
         ))}
       </div>
     </div>

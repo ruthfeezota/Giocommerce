@@ -86,8 +86,8 @@ nav {
   align-items: flex-start;
 }
 .primary-heading {
-  font-size: clamp(2rem, 4vw, 4rem);
-  color: #fe9e0d;
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #6a6a6a;
   /* line-height: 5rem; */
   max-width: 600px;
 }
@@ -108,9 +108,9 @@ nav {
   font-weight: 600;
   color: white;
   transition: 0.2s;
-  display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .secondary-button svg {
   margin-left: 0.75rem;
@@ -183,7 +183,7 @@ nav {
   background-color: white;
   max-width: 700px;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -366,6 +366,9 @@ nav {
     font-size: 1rem;
     padding: 0.8rem 2rem;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .about-section-container {
     margin-top: 5rem !important;
@@ -427,7 +430,9 @@ nav {
   .about-background-image-container {
     display: none;
   }
+
 }
+
 
 /*
   .App {

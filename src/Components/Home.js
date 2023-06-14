@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
@@ -17,11 +17,13 @@ const Home = () => {
             We Support African Industry
           </h1>
           <p className="primary-text">
-          Africa's First Procurement Platform focused on intercontinental trade
+          Africa's first procurement Platform focused on intercontinental trade
           </p>
-          <button className="secondary-button">
+          <a href="#contact">
+          <button  className="secondary-button">
             Join Our Mailing List <FiArrowRight />{" "}
           </button>
+          </a>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />

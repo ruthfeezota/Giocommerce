@@ -5,7 +5,7 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="about-section-container">
+    <div className="about-section-container" id="about">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -14,20 +14,13 @@ const About = () => {
       </div>
       <div className="about-section-text-container">
         <h1 className="primary-heading">
-        E-commerce game-changer for African businesses
+        Procurement software for your strategic sourcing
         </h1>
         <p className="primary-text">
-        Woaom is a B2B procurement web application that allow
-          African B2B customers to shop products from factors all around Africa,
-          businesses can now source materials, goods, and services from a wide
-          range of suppliers.
-        </p>
-        <p className="primary-text">
-        This helps them reduce costs, improve quality, and
-          increase their competitiveness.
+        Our e-sourcing platform has been created to help African buyers throughout the entire source to contract process. Revive the way you build and manage your RFPs by replacing manual emails and attachments, with intuitive evaluation and communication tools.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Request a Demo</button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Demo Video
           </button>
