@@ -17,7 +17,7 @@ const Home = () => {
             We Support African Industry
           </h1>
           <p className="primary-text">
-          Africa's first procurement Platform focused on intercontinental trade
+          Introducing Africa's premier procurement platform, committed to advancing intercontinental trade.
           </p>
           <a href="#contact">
           <button  className="secondary-button">

@@ -1,7 +1,12 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
+import PickMeals from "../Assets/supplier-discovery-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import RFx from "../Assets/about-background-image-7.png";
+import eAuctions from "../Assets/about-background-image-6.png";
+import Integrations from "../Assets/about-background-image-5.png"
+import Contracts from "../Assets/about-background-image-4.png"
+
+
 
 const Work = () => {
   const workInfoData = [
@@ -16,22 +21,22 @@ const Work = () => {
       text: "Actionable and informative insights on your RFx processes - enabling you yo make informed decisions",
     },
     {
-      image: DeliveryMeals,
+      image: Contracts,
       title: "Contracts",
       text: "Create contracts from your awarded RFPs and experience efficient and auditable source to contract processes",
     },
     {
-    image: DeliveryMeals,
+    image: Integrations,
     title: "Integrations",
     text: "Fast, cost effective and resilient, we make integrations easy, and can integrate into any third-party software",
   },
   {
-    image: DeliveryMeals,
+    image: eAuctions,
     title: "eAuctions",
     text: "Save hours of negotiation time - and reduce your spend - by inviting suppliers to compete online, in real-time",
   },
   {
-    image: DeliveryMeals,
+    image: RFx,
     title: "RFx",
     text: "Standardize your Requests, keep your communication in one place and evaluate your suppliers with ease",
   },

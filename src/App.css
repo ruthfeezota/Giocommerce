@@ -307,12 +307,16 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
+  
 }
 .work-section-info p {
   flex: 1;
   display: flex;
   align-items: center;
   font-weight: 500;
+  max-height: 200px;
+  
 }
 
 @media (max-width: 1000px) {
