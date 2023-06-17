@@ -8,7 +8,7 @@ const DemoList = () => {
   const [message, setMessage] = useState("");
   const [company, setCompany] = useState("");
 
-  const [loader, setLoader] = useState(false);
+  const [ setLoader] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
