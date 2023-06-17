@@ -20,7 +20,7 @@ const About = () => {
         Our e-sourcing platform has been created to help African buyers throughout the entire source to contract process. Revive the way you build and manage your RFPs by replacing manual emails and attachments, with intuitive evaluation and communication tools.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Request a Demo</button>
+          <button className="secondary-button" >Request a Demo</button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Demo Video
           </button>

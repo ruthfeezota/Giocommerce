@@ -42,7 +42,7 @@ const Work = () => {
   },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="work">
       <div className="work-section-top">
         <h1 className="primary-heading">Our Products</h1>
         <p className="primary-text">
