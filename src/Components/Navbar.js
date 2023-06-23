@@ -19,15 +19,15 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "About Us",
+      text: "Home",
       icon: <HomeIcon />,
     },
     {
-      text: "Manufacturers",
+      text: "About Us",
       icon: <InfoIcon />,
     },
     {
-      text: "Manufacturers",
+      text: "Our People",
       icon: <CommentRoundedIcon />,
     },
     {
@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="#about">About Us</a>
-        <a href="">Manufacturers</a>
+        <a href="#founders">Our People</a>
         <a href="#work">Our Products</a>
         <a href="#demo">Request Demo</a>
         <a href="">

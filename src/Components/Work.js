@@ -18,7 +18,7 @@ const Work = () => {
     {
       image: ChooseMeals,
       title: "Reporting",
-      text: "Actionable and informative insights on your RFx processes - enabling you yo make informed decisions",
+      text: "Actionable and informative insights on your RFx processes - enabling you to make informed decisions",
     },
     {
       image: Contracts,

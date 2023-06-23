@@ -303,7 +303,7 @@ nav {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .work-section-top p {
   text-align: center;
@@ -317,6 +317,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 .work-section-info {
   width: 290px;
@@ -367,7 +368,7 @@ nav {
   border-radius: 1rem;
   color: #f8f8f8;
   margin: 1rem 2rem;
-  max-height: 400px;
+  max-height: 450px;
   
 }
 

@@ -10,7 +10,7 @@ const Founders = () => {
     {
       image: Eric,
       title: "Eric Maina",
-      subtitle: "Chief Financial Officer (CFO)",
+      subtitle: "Chief Executive Officer (CEO)",
       text: "Eric brings extensive experience in sales and accounting to the team. He specializes in business development within the African market.",
     },
     {
@@ -24,7 +24,7 @@ const Founders = () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <h1 className="primary-heading">Our Team</h1>
+        <h1 className="primary-heading" id="founders">Our Team</h1>
       </div>
       <div className="work-section-bottom">
         {foundersInfoData.map((data) => (
