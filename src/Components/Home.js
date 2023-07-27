@@ -14,10 +14,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            We Support African Industry
+          Accelerate your construction business throughout Africa
           </h1>
           <p className="primary-text">
-          Introducing Africa's premier procurement platform, committed to advancing intercontinental trade.
+          Attract and win more clients, run profitable projects, and deliver a standout customer experience. Grow your business with estimating, project management, and marketing – all in one solution.
           </p>
           <a href="#contact">
           <button  className="secondary-button">

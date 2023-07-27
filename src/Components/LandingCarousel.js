@@ -1,7 +1,5 @@
 import React from "react";
-import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
 import '../index.css';
 
 
@@ -14,9 +12,9 @@ return (
   <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 1" />
+      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="slide 1" />
       <div className="carousel-caption pt-0">
-      <h1 className="text-left font-weight-bold">WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
+      <h1 className="text-left font-weight-bold"><b>Next Level African Procurement</b></h1>
         <p className="text-left col-md-8 ps-0">Africa's First Procurement Platform focused on intercontinental trade</p>
         <div className="d-flex text-left">
           <button className="btn btn-outline-light square rounded-0 ">JOIN EMAIL LIST</button>
@@ -25,7 +23,7 @@ return (
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 2" />
+      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="slide 2" />
       <div className="carousel-caption">
         <h1>Carousel Header</h1>
         <p>Some text describing the carousel</p>
@@ -34,7 +32,7 @@ return (
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="Image 3" />
+      <img src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png" className="d-block w-100" alt="slide 3" />
       <div className="carousel-caption">
         <h1>WE SUPPORT <br/>AFRICAN INDUSTRY</h1>
         <p>Some text describing the carousel</p>
@@ -54,35 +52,7 @@ return (
 </div>
 );
 
-{/* 
-  <div>
-    <div className='container-fluid' >
-      {/* <div className="row"> 
-        <div className="col-sm-12">
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-12">
-          <Carousel>
-            <Carousel.Item>
-              <img
-              className="d-block w-100" style={{ height: 800}}
-              src="https://i.ibb.co/3C2Shvs/home-Page-Cover-1.png"
-              alt="First slide"
-              />
-                <Carousel.Caption className="carousel-caption text-left ms-5 mt-5 pt-5 " >
-                  <h3 class="fs-1 fw-bold text-left">WE SUPPORT <br/>AFRICAN INDUSTRY</h3>
-                  <Button href="/" variant="outline-light" type="submit" size="lg" className="square rounded-0">JOIN EMAIL LIST</Button>{' '}
-                  <Button href="/" variant="outline-light" type="submit" size="lg" className="square rounded-0">LAUNCH DAY</Button>{' '}
-                </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>
-     
-    </div>
-  </div>
-  */}
-  
+
 
   };
 }

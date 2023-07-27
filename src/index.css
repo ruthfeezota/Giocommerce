@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+.hidden content{
+  display: none;
+}
+
 .carousel-caption {
   position: absolute;
   top: 200px;

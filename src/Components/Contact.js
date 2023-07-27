@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import { db } from '../db'
 import Form from 'react-bootstrap/Form';
 
+
 const Contact = () => {
   const [email, setEmail] = useState("");
+
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,7 +26,7 @@ const Contact = () => {
     setEmail("");
   };
   return (
-    <Form onSubmit={handleSubmit} id="contact">
+    <Form onSubmit={handleSubmit } id="contact" >
     <div className="contact-page-wrapper">
       <h1 className="primary-heading">Join Our Email List</h1>
       <p className="primary-text">Be the first to know when we launch</p>

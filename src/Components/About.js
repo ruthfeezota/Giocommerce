@@ -1,6 +1,5 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -10,14 +9,20 @@ const About = () => {
         <img src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
+      <div className="ratio ratio-1x1 video-iframe">
+      <iframe
+        src="https://www.youtube.com/embed/nf5A40WXLrc"
+        title="Woaom V.1"
+        allowfullscreen
+      ></iframe>
+    </div>
       </div>
       <div className="about-section-text-container">
         <h1 className="primary-heading">
         Procurement software for your strategic sourcing
         </h1>
         <p className="primary-text">
-        Our e-sourcing platform has been created to help African buyers throughout the entire source to contract process. Revive the way you build and manage your RFPs by replacing manual emails and attachments, with intuitive evaluation and communication tools.
+        Our e-sourcing platform has been created to help African purchasers throughout the entire source to contract process. Revive the way you build and manage your RFPs by replacing manual emails and attachments, with intuitive evaluation and communication tools.
         </p>
         <div className="about-buttons-container">
         <a href="#demo" >

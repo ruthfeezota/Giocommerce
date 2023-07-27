@@ -5,6 +5,7 @@ import RFx from "../Assets/about-background-image-7.png";
 import eAuctions from "../Assets/about-background-image-6.png";
 import Integrations from "../Assets/about-background-image-5.png"
 import Contracts from "../Assets/about-background-image-4.png"
+import Ratio from 'react-bootstrap/Ratio';
 
 
 
@@ -44,9 +45,9 @@ const Work = () => {
   return (
     <div className="work-section-wrapper" id="work">
       <div className="work-section-top">
-        <h1 className="primary-heading">Our Products</h1>
+        <h1 className="primary-heading">Access to the right tools to manage your projects, and buy the right equipment.</h1>
         <p className="primary-text">
-        We pack our procurement platform with all of the core features you need to save time, reduce your spend and transact with confidence
+        Work more efficiently, communicate better, and build faster from a single source of truth. See how you can do more on the leading construction management platform.
         </p>
       </div>
       <div className="work-section-bottom">
